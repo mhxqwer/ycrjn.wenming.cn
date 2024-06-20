@@ -1,0 +1,1604 @@
+﻿/**
+ * Copyright (c) Xinhuanet Inc. All rights reserved.
+ *
+ * @project amp(all media player)
+ * @file    amp.resources/amp.css
+ * @author  St. <st_sister@icloud.com>
+ * @time    2016-04-25
+ *          2016-06-14-09.20 添加新的头部开发注释
+ */
+
+
+/**
+ * 基础制作页面组件
+ * 20150716 v1.0
+ * 20160421 v1.1 商讨了默认字号，a的默认连接颜色样式等
+ * 2016-05-10-09.00 合并播放器样式表
+ * 2016-05-13-15.45 整理样式表
+ * 2016-05-15-12.08 继续整理样式表
+ */
+
+/*
+修改全媒体播放器文章标题字体颜色
+2016-07-15 .t a :color#fff;
+*/
+/*.sprite {
+    background-image: url(../images/ampreader.png);
+    background-repeat: no-repeat;
+    display: block;
+}*/
+
+
+/*.sprite-iconArrowLeft {
+    width: 6px;
+    height: 10px;
+    background-position: -15px -15px;
+}*/
+
+
+/*.sprite-iconArrowLeftActive {
+    width: 5px;
+    height: 9px;
+    background-position: -50px -15px;
+}*/
+
+
+/*.sprite-iconArrowRight {
+    width: 6px;
+    height: 10px;
+    background-position: -85px -15px;
+}*/
+
+
+/*.sprite-iconArrowRightActive {
+    width: 5px;
+    height: 9px;
+    background-position: -120px -15px;
+}*/
+
+
+/*.sprite-iconNext {
+    width: 15px;
+    height: 18px;
+    background-position: -155px -15px;
+}
+.sprite-iconNextActive {
+    width: 15px;
+    height: 18px;
+    background-position: -200px -15px;
+}*/
+
+
+/*.sprite-iconPlay {
+    width: 36px;
+    height: 36px;
+    background-position: -245px -15px;
+}
+.sprite-iconPlayActive {
+    width: 36px;
+    height: 36px;
+    background-position: -311px -15px;
+}*/
+
+
+/*.sprite-iconPre {
+    width: 15px;
+    height: 18px;
+    background-position: -377px -15px;
+}
+.sprite-iconPreActive {
+    width: 15px;
+    height: 18px;
+    background-position: -15px -63px;
+}*/
+
+
+/*.sprite-iconPus {
+    width: 36px;
+    height: 36px;
+    background-position: -60px -81px;
+}
+.sprite-iconPusActive {
+    width: 36px;
+    height: 36px;
+    background-position: -126px -81px;
+}*/
+
+
+/*.sprite-iconRep {
+    width: 23px;
+    height: 18px;
+    background-position: -192px -63px;
+}
+.sprite-iconRepActive {
+    width: 23px;
+    height: 18px;
+    background-position: -377px -63px;
+}
+.sprite-iconRepSingle {
+    width: 25px;
+    height: 23px;
+    background-position: -192px -111px;
+}
+.sprite-iconRepSingleActive {
+    width: 25px;
+    height: 23px;
+    background-position: -247px -111px;
+}*/
+
+
+/*.sprite-iconShare {
+    width: 17px;
+    height: 18px;
+    background-position: -302px -111px;
+}
+.sprite-iconShareActive {
+    width: 17px;
+    height: 18px;
+    background-position: -349px -111px;
+}*/
+
+
+/*.sprite-iconShuffle {
+    width: 21px;
+    height: 18px;
+    background-position: -15px -159px;
+}
+.sprite-iconShuffleActive {
+    width: 21px;
+    height: 18px;
+    background-position: -66px -159px;
+}*/
+
+
+/*.sprite-iconTinyX {
+    width: 8px;
+    height: 8px;
+    background-position: -15px -111px;
+}*/
+
+
+/*.sprite-iconTipBtn {
+    width: 111px;
+    height: 40px;
+    background-position: -117px -164px;
+}
+.sprite-iconTipBtnActive {
+    width: 112px;
+    height: 40px;
+    background-position: -258px -164px;
+}*/
+
+
+/*.sprite-iconVolMax {
+    width: 21px;
+    height: 18px;
+    background-position: -15px -234px;
+}
+.sprite-iconVolMaxActive {
+    width: 21px;
+    height: 18px;
+    background-position: -66px -234px;
+}*/
+
+
+/*.sprite-iconVolMin {
+    width: 21px;
+    height: 18px;
+    background-position: -117px -234px;
+}
+.sprite-iconVolMinActive {
+    width: 21px;
+    height: 18px;
+    background-position: -168px -234px;
+}*/
+
+
+/*.sprite-iconVolMute {
+    width: 21px;
+    height: 18px;
+    background-position: -219px -234px;
+}
+.sprite-iconVolMuteActive {
+    width: 21px;
+    height: 18px;
+    background-position: -270px -234px;
+}*/
+
+
+/*.sprite-icon_qzone {
+    width: 22px;
+    height: 20px;
+    background-position: -321px -234px;
+}
+.sprite-icon_wechat {
+    width: 21px;
+    height: 17px;
+    background-position: -373px -234px;
+}
+.sprite-icon_weibo {
+    width: 22px;
+    height: 17px;
+    background-position: -373px -281px;
+}
+.sprite-icon_xinhuaweibo {
+    width: 18px;
+    height: 18px;
+    background-position: -15px -328px;
+}*/
+
+
+/*.sprite-waveStop {
+    width: 340px;
+    height: 191px;
+    background-position: -430px -15px;
+}*/
+
+
+/* =================================== ampPlayerBox ===================================== */
+
+.ampPlayerBox {
+    /*position: absolute;*/
+}
+.ampPlayerBox .audioBtn {
+    position: absolute;
+    height: 67px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 16;
+    background-color: #333;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ampPlayerBox .btn {
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    border: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background-color: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    outline: none;
+    border-radius: 4px;
+    background-image: url(../images/ampreader.png);
+}
+.ampPlayerBox .btn:hover {
+    background-color: rgba(26, 119, 197, 0.2);
+}
+.ampPlayerBox .btn:active {
+    background-color: rgba(26, 119, 197, 0.4);
+}
+.ampPlayerBox .iconShuffle {
+    /*background-image: url(../images/iconshuffle.png);*/
+    background-position: -5.5px -148px;
+}
+.ampPlayerBox.jp-state-shuffled .iconShuffle, .ampPlayerBox.jp-state-shuffled .iconShuffle:hover {
+    /*background-image: url(../images/iconshuffleactive.png);*/
+    background-position: -56.5px -148px;
+}
+
+/*.sprite-iconShuffle {
+    width: 21px;
+    height: 18px;
+    background-position: -15px -159px;
+}
+.sprite-iconShuffleActive {
+    width: 21px;
+    height: 18px;
+    background-position: -66px -159px;
+}*/
+
+.ampPlayerBox .iconPlay {
+    /*background-image: url(../images/iconplay.png);*/
+    background-position: -243px -13px;
+}
+.ampPlayerBox .iconPlay:hover {
+    /*background-image: url(../images/iconplayactive.png);*/
+    background-position: -309px -13px;
+}
+
+/*.sprite-iconPlay {
+    width: 36px;
+    height: 36px;
+    background-position: -245px -15px;
+}
+.sprite-iconPlayActive {
+    width: 36px;
+    height: 36px;
+    background-position: -311px -15px;
+}*/
+
+.ampPlayerBox .iconPre {
+    /*background-image: url(../images/iconpre.png);*/
+    background-position: -364.5px -4px;
+    /*margin-left: 0;*/
+}
+.ampPlayerBox .iconPre:hover {
+    /*background-image: url(../images/iconpreactive.png);*/
+    background-position: -2.5px -52px;
+    /*margin-left: 0;*/
+}
+
+/*.sprite-iconPre {
+    width: 15px;
+    height: 18px;
+    background-position: -377px -15px;
+}
+.sprite-iconPreActive {
+    width: 15px;
+    height: 18px;
+    background-position: -15px -63px;
+}*/
+
+.ampPlayerBox .iconNext {
+    /*background-image: url(../images/iconnext.png);*/
+    background-position: -142.5px -4px;
+}
+.ampPlayerBox .iconNext:hover {
+    /*background-image: url(../images/iconnextactive.png)*/
+    background-position: -187.5px -4px;
+}
+
+/*.sprite-iconNext {
+    width: 15px;
+    height: 18px;
+    background-position: -155px -15px;
+}
+.sprite-iconNextActive {
+    width: 15px;
+    height: 18px;
+    background-position: -200px -15px;
+}*/
+
+.ampPlayerBox .iconVolMin {
+    /*background-image: url(../images/iconvolmin.png);*/
+    background-position: -107.5px -223px;
+}
+
+/*.ampPlayerBox .iconVolMin:hover {
+    background-image: url(../images/iconvolminactive.png);
+}*/
+
+
+/*.ampPlayerBox.jp-state-muted .iconVolMin:hover,*/
+
+
+/*.ampPlayerBox .iconVolMin:hover,*/
+
+.ampPlayerBox.jp-state-muted .iconVolMin {
+    /*background-image: url(../images/iconvolmuteactive.png);*/
+    /*background-position: -158.5px -223px;*/
+    background-position: -260.5px -223px;
+}
+
+/*.sprite-iconVolMin {
+    width: 21px;
+    height: 18px;
+    background-position: -117px -234px;
+}
+.sprite-iconVolMinActive {
+    width: 21px;
+    height: 18px;
+    background-position: -168px -234px;
+}*/
+
+.ampPlayerBox .iconRep {
+    /*background-image: url(../images/iconrep.png);*/
+    background-position: -183.5px -52px;
+}
+.ampPlayerBox.jp-state-looped .iconRep, .ampPlayerBox.jp-state-looped .iconRep:hover {
+    /*background-image: url(../images/iconrepactive.png);*/
+    background-position: -368.5px -52px;
+}
+.ampPlayerBox .iconRepSingle {
+    /*display: none !important;*/
+    /*background-image: url(../images/iconrepsingle.png);*/
+    background-position: -184.5px -102.5px;
+}
+.ampPlayerBox .iconRepSingle.active {
+    /*background-image: url(../images/iconrepsingleactive.png);*/
+    background-position: -239.5px -102.5px;
+}
+
+/*.sprite-iconRep {
+    width: 23px;
+    height: 18px;
+    background-position: -192px -63px;
+}
+.sprite-iconRepActive {
+    width: 23px;
+    height: 18px;
+    background-position: -377px -63px;
+}
+.sprite-iconRepSingle {
+    width: 25px;
+    height: 23px;
+    background-position: -192px -111px;
+}
+.sprite-iconRepSingleActive {
+    width: 25px;
+    height: 23px;
+    background-position: -247px -111px;
+}*/
+
+.ampPlayerBox.jp-state-playing .iconPlay {
+    background-position: -58px -79px;
+    /*background-image: url(../images/iconpus.png);*/
+}
+.ampPlayerBox.jp-state-playing .iconPlay:hover {
+    background-position: -124px -79px;
+    /*background-image: url(../images/iconpusactive.png);*/
+}
+
+/*.sprite-iconPus {
+    width: 36px;
+    height: 36px;
+    background-position: -60px -81px;
+}
+.sprite-iconPusActive {
+    width: 36px;
+    height: 36px;
+    background-position: -126px -81px;
+}*/
+
+.ampPlayerBox .iconShare {
+    /*background-image: url(../images/iconshare.png);*/
+    position: absolute;
+    top: 17px;
+    left: 549px;
+    display: none;
+    background-position: -290.5px -100px;
+}
+.ampPlayerBox .iconShare.on, .ampPlayerBox .iconShare:hover {
+    /*background-image: url(../images/iconshareactive.png);*/
+    background-position: -337.5px -100px;
+}
+
+/*.sprite-iconShare {
+    width: 17px;
+    height: 18px;
+    background-position: -302px -111px;
+}
+.sprite-iconShareActive {
+    width: 17px;
+    height: 18px;
+    background-position: -349px -111px;
+}*/
+
+
+/* --------------------------------------------- btnBox --------------------------------------------- */
+
+.ampPlayerBox .leftBtnBox {
+    position: absolute;
+    left: 95px;
+    top: 0;
+    height: 100%;
+    /*padding-left: 46px;*/
+}
+.ampPlayerBox .leftBtnBox .btn {
+    display: block;
+    float: left;
+    margin-top: 17px;
+    margin-right: 6px;
+}
+.ampPlayerBox .btnBox {
+    position: absolute;
+    display: block;
+    width: 166px;
+    left: 247px;
+    top: 0px;
+    border-right: 1px solid #101116;
+    border-left: 1px solid #252732;
+    border-bottom-left-radius: 5px;
+    z-index: 1;
+    height: 100%;
+}
+.ampPlayerBox .btnBoxIn {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #252732;
+    border-left: 1px solid #101116;
+    border-bottom-left-radius: 5px;
+}
+.ampPlayerBox .btnBox .btn {
+    display: block;
+    float: left;
+    margin-left: 11px;
+    margin-top: 17px;
+}
+
+/* --------------------------------------------- bar --------------------------------------------- */
+
+
+/*.ampPlayerBox .barAndTimes {
+    position: relative;;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}*/
+
+.ampPlayerBox .bar {
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    z-index: 2;
+}
+.ampPlayerBox .barValue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    /*border-top: 5px #00a3e2 solid;*/
+    z-index: 2;
+    cursor: pointer;
+}
+.ampPlayerBox .barBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FCA54E;
+    border-radius: 2.5px;
+    z-index: 1;
+}
+.ampPlayerBox .inBarBg {
+    width: 100%;
+    background-color: #F72500;
+    border-radius: 2.5px;
+}
+.ampPlayerBox .inBarBg, .ampPlayerBox .barBg {
+    height: 5px;
+    height: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+.ampPlayerBox .barVolumeBox {
+    position: absolute;
+    left: 429px;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+.ampPlayerBox .barVolumeBox .btn {
+    position: absolute;
+    left: 0;
+    top: 17px;
+    z-index: 1;
+}
+.ampPlayerBox .barVolumeBox .inBarBg, .ampPlayerBox .barVolumeBox .barBg {
+    height: 3px;
+}
+.ampPlayerBox .barVolume {
+    width: 72px;
+    position: absolute;
+    left: 38px;
+    top: 35px;
+    z-index: 2;
+}
+
+/* ------------------------------------- currentTime & duration ------------------------------------- */
+
+.ampPlayerBox .currentTime, .ampPlayerBox .duration {
+    width: 60px;
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    /*font-family: "Lucida Sans Unicode";*/
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+}
+.ampPlayerBox .currentTime {
+    /*float: left*/
+    left: 4px;
+    text-align: left;
+    color: #a9a9a9;
+}
+.ampPlayerBox .duration {
+    right: 4px;
+    text-align: right;
+    color: #4a4f5f;
+}
+
+/* -------------------------------------- ampShareBtnBox -------------------------------------- */
+
+.ampShareBtnBox {
+    position: absolute;
+    width: 225px;
+    height: 52px;
+    line-height: 52px;
+    right: 14px;
+    bottom: 69px;
+    z-index: 16;
+    background-color: #333;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: left;
+    border: 1px #232631 solid;
+}
+.ampShareBtnBox .title {
+    display: block;
+    margin-left: 10px;
+    float: left;
+    width: 48px;
+}
+.ampShareBtnBox .shareBtn {
+    display: block;
+    background-color: #444444;
+    margin-left: 10px;
+    margin-top: 11px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -888px;
+    outline: none;
+    background-image: url(../images/ampreader.png);
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.ampShareBtnBox .shareBtn.share1 {
+    /*background-image: url(../images/icon_xinhuaweibo.png);*/
+    background-position: -9px -322px;
+}
+.ampShareBtnBox .shareBtn.share2 {
+    /*background-image: url(../images/icon_weibo.png);*/
+    background-position: -369px -274.5px;
+}
+.ampShareBtnBox .shareBtn.share3 {
+    /*background-image: url(../images/icon_qzone.png);*/
+    background-position: -317px -229px;
+}
+.ampShareBtnBox .shareBtn.share4 {
+    /*background-image: url(../images/icon_wechat.png);*/
+    background-position: -368.5px -227.5px;
+}
+
+/*.sprite-icon_qzone {
+    width: 22px;
+    height: 20px;
+    background-position: -321px -234px;
+}
+.sprite-icon_wechat {
+    width: 21px;
+    height: 17px;
+    background-position: -373px -234px;
+}
+.sprite-icon_weibo {
+    width: 22px;
+    height: 17px;
+    background-position: -373px -281px;
+}
+.sprite-icon_xinhuaweibo {
+    width: 18px;
+    height: 18px;
+    background-position: -15px -328px;
+}*/
+
+.ampShareBtnBox .share1:hover, .ampShareBtnBox .share2:hover, .ampShareBtnBox .share3:hover, .ampShareBtnBox .share4:hover {
+    background-color: #FFF;
+}
+
+/* -------------------------------------------- audioListBox -------------------------------------------- */
+
+.ampPlayerBox .audioListBox {
+    position: absolute;
+    font-size: 12px;
+    line-height: 30px;
+    top: 30px;
+    right: 0;
+    width: 255px;
+    background-color: #333;
+    z-index: 15;
+}
+.ampPlayerBox .audioListBox ul, .ampPlayerBox .audioListBox ul li {
+    list-style: none;
+}
+.ampPlayerBox .audioListBox ul {
+    margin-left: 12px;
+}
+.ampPlayerBox .audioListBox ul li {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+.ampPlayerBox .audioListBox ul li a {
+    display: block;
+    color: #959595;
+    text-decoration: none;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ampPlayerBox .audioListBox ul li.jp-playlist-current {
+    background: #32343b;
+    color: #FFFFFF;
+}
+.ampPlayerBox .audioListBox ul li.jp-playlist-current a {
+    color: #FFFFFF;
+}
+.ampReaderBox .audioListBox ul li .jp-playlist-item-remove, .ampReaderBox.tiny .audioListBox ul li .jp-playlist-item-remove {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: block;
+    width: 24px;
+    height: 30px;
+    /*background-image: url(../images/icontinyx.png);*/
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -888px;
+    /*background-color: #32343b;*/
+    opacity: 0.6;
+    background-image: url(../images/ampreader.png);
+    background-position: -7px -100px;
+}
+
+/*.sprite-iconTinyX {
+    width: 8px;
+    height: 8px;
+    background-position: -15px -111px;
+}*/
+
+.ampReaderBox .audioListBox ul li .jp-playlist-item-remove:hover, .ampReaderBox.tiny .audioListBox ul li .jp-playlist-item-remove:hover {
+    opacity: 1;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+}
+.audioListBox .audioListClose {
+    width: 10px;
+    height: 100%;
+    border: 1px solid #101116;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #252732;
+    /*background-image: url(../images/iconarrowright.png);*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    cursor: pointer;
+}
+.audioListBox .audioListCloseIn {
+    width: 9px;
+    height: 100%;
+    border-right: #2b2d3a 1px solid;
+}
+
+/*.audioListBox .audioListClose:hover {
+    background-image: url(../images/iconarrowrightactive.png);
+    background-color: rgba(26, 119, 197, 0.4);
+}*/
+
+.audioListBox .audioListOpen {
+    /*background-image: url(../images/iconarrowleft.png);*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+}
+.audioListBox .audioListClose .sprite, .audioListBox .audioListOpen .sprite {
+    background-image: url(../images/ampreader.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 5px;
+    margin-left: -2.5px;
+    height: 9px;
+    margin-top: -4.5px;
+}
+.audioListBox .audioListClose .sprite {
+    background-position: -15px -15px;
+}
+.audioListBox .audioListOpen .sprite {
+    background-position: -85px -15px;
+}
+
+/*.audioListBox .audioListOpen:hover {
+    background-image: url(../images/iconarrowleftactive.png);
+}*/
+
+.ampReaderBox .slimScrollDiv {
+    z-index: 1;
+    right: 11px;
+    /*margin-top: 30px;*/
+}
+.ampReaderBox .slimScrollBar {
+    margin-right: 3px;
+}
+.ampReaderBox .slimScrollRail {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.ampReaderBox .audioListBox .slimScrollDiv {
+    z-index: 1;
+    right: 1px;
+}
+
+/*.ampReaderBox .audioListBox .slimScrollBar {
+    margin-right: 4px;
+}*/
+
+.ampReaderBox .audioListBox .slimScrollRail {
+    padding-left: 3px;
+    padding-right: 4px;
+}
+.ampPlayerBox .audioWave {
+    display: none
+}
+
+/* ---------------------------------------------- ampReaderBox.tiny ---------------------------------------------- */
+
+.ampReaderBox.tiny {
+    width: 340px;
+    height: 265px;
+    overflow: visible;
+}
+.ampReaderBox.tiny .audioListBox {
+    width: 100%;
+    height: 60px;
+    z-index: 14
+}
+.ampReaderBox.tiny .audioBtn {
+    height: 60px;
+    /*border-top: 1px solid #1c1c1c;*/
+}
+.ampReaderBox.tiny .audioWave {
+    display: block;
+    width: 340px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    /*background-image: url(../images/wavestop.png);*/
+    background-color: #000000;
+    background-image: url(../images/ampreader.png);
+    background-position: -430px -20.5px;
+    z-index: 13;
+}
+
+/*.sprite-waveStop {
+    width: 340px;
+    height: 191px;
+    background-position: -430px -15px;
+}*/
+
+.ampReaderBox.tiny .jp-state-playing .audioWave {
+    background-color: #000000;
+    background-image: url(../images/wave.gif);
+    background-position: center center;
+}
+.ampReaderBox.tiny .swiper-container {
+    display: none;
+}
+.ampReaderBox.tiny .audioListBox ul li a {
+    /*display: block;*/
+    /*color: #959595;*/
+    /*text-decoration: none;*/
+    width: 286px;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+}
+
+/*.ampReaderBox.tiny .audioListBox ul li .jp-playlist-item-remove {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: block;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -888px;
+    opacity: 0.6;
+
+    background-image: url(../images/ampreader.png);
+    background-position: -7px -100px;
+}
+.ampReaderBox.tiny .audioListBox ul li .jp-playlist-item-remove:hover {
+    opacity: 1;
+}*/
+
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox {
+    position: absolute;
+    left: 258px;
+    top: auto;
+    bottom: 11px;
+    padding-left: 0;
+    width: 43px;
+    height: auto;
+    background-color: #333;
+    z-index: 3;
+    overflow: hidden;
+    border: 1px #333 solid;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox:hover {
+    border: 1px #252732 solid;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox .btn {
+    display: block;
+    float: none;
+    margin-top: 0;
+    margin-right: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 28px;
+    border-radius: 0;
+    border-top: 1px #333 solid;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox:hover .btn {
+    border-top: 1px #252732 solid;
+}
+.ampReaderBox.tiny .ampPlayerBox .iconRep {
+    background-position: -181px -58px;
+}
+.ampReaderBox.tiny .ampPlayerBox.jp-state-looped .iconRep, .ampReaderBox.tiny .ampPlayerBox.jp-state-looped .iconRep:hover {
+    background-position: -366px -58px;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox .iconShuffle {
+    display: none;
+    background-position: -3px -154px;
+}
+.ampReaderBox.tiny .ampPlayerBox.jp-state-shuffled .iconShuffle, .ampReaderBox.tiny .ampPlayerBox.jp-state-shuffled .iconShuffle:hover {
+    background-position: -54px -154px;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox .iconRepSingle {
+    display: none;
+    background-position: -182px -108.5px;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox .iconRepSingle.active {
+    background-position: -237px -108.5px;
+}
+.ampReaderBox.tiny .ampPlayerBox .leftBtnBox:hover .iconShuffle, .ampReaderBox.tiny .ampPlayerBox .leftBtnBox:hover .iconRepSingle {
+    border-bottom: 1px #101116 solid;
+    display: block;
+}
+.ampReaderBox.tiny .ampPlayerBox .btnBox {
+    position: absolute;
+    display: block;
+    width: 134px;
+    left: 0;
+    top: 0px;
+    border-right: 1px solid #101116;
+    border-left: 1px solid #252732;
+    z-index: 1;
+    height: 100%;
+}
+.ampReaderBox.tiny .ampPlayerBox .btnBox .btn {
+    display: block;
+    float: left;
+    margin-left: 3px;
+    margin-top: 14px;
+}
+.ampReaderBox.tiny .ampPlayerBox .barVolumeBox {
+    position: absolute;
+    left: 144px;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+.ampReaderBox.tiny .ampPlayerBox .barVolumeBox .btn {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    z-index: 1;
+}
+.ampReaderBox.tiny .ampPlayerBox .barVolumeBox .inBarBg, .ampReaderBox.tiny .ampPlayerBox .barVolumeBox .barBg {
+    height: 3px;
+}
+.ampReaderBox.tiny .ampPlayerBox .barVolume {
+    width: 72px;
+    position: absolute;
+    left: 38px;
+    top: 32px;
+    z-index: 2;
+}
+.ampReaderBox.tiny .ampPlayerBox .iconShare {
+    /*background-image: url(../images/iconshare.png);*/
+    position: absolute;
+    top: 14px;
+    left: auto;
+    right: 1px;
+    z-index: 3;
+}
+.ampReaderBox.tiny .ampPlayerBox .iconShare.on, .ampPlayerBox .iconShare:hover {
+    /*background-image: url(../images/iconshareactive.png);*/
+}
+.ampReaderBox.tiny .ampShareBtnBox {
+    position: absolute;
+    width: 225px;
+    height: 52px;
+    line-height: 52px;
+    right: 14px;
+    bottom: 63px;
+    z-index: 16;
+    background-color: #333;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: left;
+}
+.jp-artist {
+    display: none;
+}
+#amp .t a {
+    color:#fff;
+}
+/* ---------------------------------------- amp ---------------------------------------- */
+
+.amp, .amp a {
+    font-family: "Pinghei", "微软雅黑";
+    color: #b3b3b3;
+}
+
+.amp {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    position: relative;
+    overflow: hidden;
+    width: 640px;
+    height: 440px;
+    background-color: #FFF;}
+	
+@media screen and (min-width:1439px) {
+.amp {
+    width: 760px;
+    height: 475px;
+	}
+	
+}
+
+/*.amp.amp-big {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}*/
+
+.ampReaderBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 630px;
+    height: 360px;
+    background: #1a77c5;
+    z-index: 13;
+    display: none;
+}
+.ampReaderBox .amp-reader-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+.amp .swiper-slide {
+    position: relative;
+}
+.amp .swiper-container {
+    width: 100%;
+    height: 100%;
+    /*padding: 30px 40px;*/
+    /*border-radius: 20px;*/
+    position: relative;
+    /*box-shadow: 0px 0px 5px #000;*/
+    overflow: hidden;
+}
+.amp .arrow-left, .amp .arrow-right {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    width: 26px;
+    height: 36px;
+    padding: 6px;
+    top: -210px;
+}
+.amp .arrow-left {
+    background-image:url(../images/arrows-left.png);
+    left: -445px;
+}
+.amp .arrow-right {
+    background-image:url(../images/arrows-right.png);
+	right:5px;
+    /*right: 10px;*/
+}
+
+@media screen and (min-width:1439px) {
+	.amp .arrow-left, .amp .arrow-right {
+		top: -230px;
+	}
+	.amp .arrow-left {
+		left: -570px;
+	}
+	.amp .arrow-right {
+		right:5px;
+		/*right: 10px;*/
+	}
+}
+
+
+
+
+/*.amp .arrow-left:hover {
+    background-image: url(../images/arrows-left-hover.png);
+}
+.amp .arrow-right:hover {
+    background-image: url(../images/arrows-right-hover.png);
+}*/
+
+.amp .arrow-left:hover, .amp .arrow-right:hover {
+    background-color: #F22400;
+}
+.amp .pagination {
+    position: absolute;
+    right: 5px;
+    bottom: 0%;
+    /*35px */
+    text-align: right;
+    width: 20%;
+    z-index: 3;
+	/*width:100%;*/
+	width:180px;
+    height: 40px;
+}
+.amp.amp-follow .pagination {
+    position: absolute;
+    left: 0;
+    bottom: 12%;
+    /*35px */
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    height: 32px;
+}
+.amp .swiper-pagination-switch {
+    background-color: #ccc;
+    /* 圆点常规色 */
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    margin: 15px 4px 15px 4px;
+    cursor: pointer;
+}
+.amp .swiper-active-switch {
+    background-color: #0ebb90;
+    /* 圆点激活色 */
+}
+.amp .amp-in {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.amp .amp-in img {
+    width: 100%;
+    height: auto;
+}
+.amp .amp-in .t {
+    width: 100%;
+    line-height: 41px;
+    height: 41px;
+    font-size: 16px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.7);
+	left:0;
+    bottom: 0;
+}
+.amp .amp-in .t {
+    color: #FFF;
+}
+.amp .amp-in .t p{
+    line-height: 41px;
+    text-align: left;
+    padding-left: 40px;
+}
+@media \0screen\,screen\9 {/* 只支持IE6、7、8 */
+  .amp .amp-in .t{
+    background-color:#000;
+    filter:Alpha(opacity=70);
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  }
+  .amp .amp-in .t p{
+    position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+  }  
+}
+
+.amp-follow .amp-in .t {
+    font-size: 14px;
+}
+.amp.amp-big .amp-in .t {
+    line-height: 40px;
+    font-size: 22px;
+    bottom: 2%;
+}
+.amp-changeSize {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.amp-top-box {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.amp-title {
+    height: 30px;
+    background: url(../images/logo.svg) center center no-repeat;
+    background-size: auto 38%;
+    /* background: url(../fonts/qmt_logo.svg) right center no-repeat;*/
+    margin: 0 auto;
+}
+
+/*.amp-title-icon {
+    height: 30px;
+    width: 11px;
+    background: url(../fonts/a1874a4257e440cf93eba293ada833dc.svg);
+    background-color: #fff;
+    background-position: center 10px;
+    /*-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)*/
+    background-size: auto 3%;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+.weChatQRCodeBox img {
+    display: block
+}
+.weChatQRCodeBox .t {
+    display: block;
+    text-align: center;
+    /*background: #fff;*/
+    color: #000;
+    /*padding-bottom: 18px;*/
+    line-height: 28px;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.weChatQRCodeBox .close {
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    z-index: 2;
+    font-size: 26px;
+    color: #ccc;
+    cursor: pointer
+}
+.weChatQRCodeBox .iconClose {
+    /*background-color: #FFFFFF;*/
+    /*background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2020%2020'%3E%3Cpolygon%20style='fill:#CCCCCC;'%20points='20,1.5%2018.5,0%2010,8.5%201.5,0%200,1.5%208.5,10%200,18.5%201.5,20%2010,11.5%2018.5,20%2020,18.5%2011.5,10'/%3E%3C/svg%3E%0A");*/
+    background-image: url(../images/media-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    /*background-size: 60% auto;*/
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    background-color: #4293cb;
+    /*-moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    -moz-box-shadow: 0 0 5px black;
+    -webkit-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;*/
+}
+.weChatQRCodeBox .iconClose:hover {
+    opacity: 0.7;
+    background-color: #9e0000;
+}
+.weChatQRCodeBox .iconClose:active {
+    opacity: 1;
+    background-color: #9e0000;
+}
+.ampMediaTpye {
+    position: absolute;
+    z-index: 2;
+    /*top: 50%;
+    left: 50%;*/
+    /*left: 4px;
+    bottom: 66px;*/
+    left: 0;
+    bottom: 5px;
+    width: 50px;
+    height: 30px;
+    /*margin-left: -20px;
+    margin-top: -32px;*/
+    overflow: hidden;
+    text-indent: -888px;
+    cursor: pointer;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 0.7;
+    transition: all .3s;
+    z-index: 10;
+}
+a:hover .ampMediaTpye {
+    opacity: 1;
+}
+.amp-follow .ampMediaTpye {
+    left: 4px;
+    bottom: 5px;
+    width: 36px;
+    height: 36px;
+}
+.amp-icon-mp3 {
+    background-image: url(../images/icon-mp3.png);
+}
+.amp-icon-video {
+    background-image: url(../images/icon-video.png);
+}
+.amp-icon-vr {
+    background-image: url(../images/icon-vr.png);
+}
+.amp-icon-pic {
+    background-image: url(../images/icon-pic.png);
+}
+.amp-icon-picRot {
+    background-image: url(../images/icon-picrot.png);
+}
+
+/* ampHelp */
+.ampHelp {
+    width: 650px;
+    position: absolute;
+    z-index: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+.ampHelp.on {
+    z-index: 19;
+    pointer-events: none;
+}
+.ampHelp .ampHelpShowBtn {
+    position: absolute;
+    z-index: 15;
+    width: 20px;
+    top: 15px;
+    right: -54px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #999;
+    cursor: pointer;
+    /*background: rgba(0, 0, 0, 0.2);*/
+    text-align: center;
+    padding-top: 30px;
+}
+.ampHelp .ampHelpShowBtn .cRed {
+    color: #df3a44;
+}
+.ampHelp .ampHelpShowBtn .iconExc {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    margin-left: -15px;
+    height: 26px;
+    display: block;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../images/iconexc.png);
+}
+.ampHelp .ampHelpContent {
+    /*display: none;*/
+}
+.ampHelp .ampHelpBorder {
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    padding: 12px;
+    border: 3px #3594ff solid;
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.ampHelpCloneDom {
+    position: absolute;
+    display: none;
+    border-radius: 6px;
+    padding: 0 10px;
+    background-color: #FFF;
+    z-index: 0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.ampHelpCloneDom a {
+    color: #305798;
+}
+.ampHelpOpen {
+    position: relative;
+    z-index: 18;
+}
+.ampHelpShadow {
+    z-index: 17;
+}
+.ampHelpAddZ-index {
+    z-index: 18;
+}
+.ampHelpMouse {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: -160px;
+    top: 300px;
+    width: 240px;
+    height: 60px;
+}
+.ampHelpMouse .icon {
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.ampHelpMouse .iconMouse {
+    background-image: url(../images/iconmouse.png);
+    width: 42px;
+    height: 38px;
+    top: 0;
+    left: 0;
+}
+.ampHelpMouse .iconLine {
+    background-image: url(../images/iconline.png);
+    width: 179px;
+    height: 48px;
+    top: 10px;
+    right: 14px;
+}
+.ampHelpMouse .iconArrow {
+    background-image: url(../images/iconarrow.png);
+    width: 22px;
+    height: 21px;
+    top: 26px;
+    right: 0;
+}
+.ampHelpTips {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    left: -305px;
+    top: 380px;
+    width: 276px;
+    height: 60px;
+    text-align: right;
+    font-weight: bold;
+    line-height: 30px;
+}
+.ampHelpTips .t1 {
+    color: #3594ff;
+    font-size: 16px;
+    margin-right: 14px;
+    margin-top: 30px;
+}
+.ampHelpTips .t2 {
+    color: #ffdb35;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.ampHelpOff {
+    display: none;
+    position: fixed;
+    /*background-color: #FFFFFF;*/
+    background-image: url(../images/iconx.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*background-size: 60% auto;*/
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    /*-moz-border-radius: 16px;*/
+    /*-webkit-border-radius: 16px;*/
+    /*border-radius: 16px;*/
+    /*-moz-box-shadow: 0 0 5px black;*/
+    /*-webkit-box-shadow: 0 0 5px black;*/
+    /*box-shadow: 0 0 5px black;*/
+    z-index: 18;
+    cursor: pointer;
+}
+.ampHelpOff:hover {
+    opacity: 0.7;
+    background-color: #9e0000;
+    /*background-color: #4293cb;*/
+}
+.ampHelpOff:active {
+    opacity: 1;
+    background-color: #9e0000;
+}
+.media-news, .mediaNews .cont {
+    overflow: visible !important;
+}
+
+/*.ampHelp.on .ampHelpMouse,
+.ampHelp.on .ampHelpTips {
+    display: block;
+}*/
+
+
+/* ======================================== ampTiny ======================================== */
+.ampTiny #amp-pushnews-box, .ampTiny .amp-follow, .ampTiny .tiny, .ampTiny .amp-video-small {
+    right: -340px !important;
+}
+.ampTiny-btn-on, #amp-pushnews-box, .amp-follow, .amp-video-small {
+    -webkit-transition: right 1s ease-in-out;
+    -moz-transition: right 1s ease-in-out;
+    -ms-transition: right 1s ease-in-out;
+    -o-transition: right 1s ease-in-out;
+    transition: right 1s ease-in-out;
+}
+.ampTiny-btn-on {
+    z-index: 99;
+    position: absolute;
+    background-color: #999;
+    width: 10px;
+    height: 80px;
+    right: 340px;
+    bottom: 70px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: -888px;
+}
+.amp .ampTiny-btn-on {
+    display: none;
+}
+.tiny .ampTiny-btn-on,
+.amp-follow .ampTiny-btn-on {
+    display: block;
+}
+
+/*.mac .ampTiny-btn-off {
+    padding-right: 15px;
+}*/
+
+
+/*.ampTiny-btn-on {
+}*/
+
+.ampTiny-btn-off {
+    background-position: right center;
+    background-image: url(../images/arrows-left-small.png);
+}
+
+/* ======================================== oldie ======================================== */
+
+.oldie .ampMediaTpye {
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    background-position: center 0;
+    height: 36px !important;
+    bottom: 69px;
+}
+.oldie .amp-follow .ampMediaTpye {
+    /*left: 4px;*/
+    bottom: 50px;
+    /*width: 36px;*/
+    /*height: 36px;*/
+}
+.oldie .amp-shadow, .oldie .weChatQRCodeBox, .oldie .ampReaderBox_tips_shadow {
+    background: url(../images/oldie-amp-shadow.png);
+}
+.oldie .amp-title, .oldie .weChatQRCodeBox .weChatQRCodeBoxIn {
+    background-image: url(../images/amp.logo.png);
+}
